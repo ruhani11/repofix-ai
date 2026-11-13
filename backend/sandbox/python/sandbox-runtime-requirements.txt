@@ -1,0 +1,6 @@
+# Operator-owned dependencies. Never replace this with target requirements.
+# Direct versions match the offline-tested Python 3.12 environment.
+# Transitive dependencies and the base image are not a complete hash lock yet.
+fastapi==0.141.1
+httpx==0.28.1
+pytest==9.2.0

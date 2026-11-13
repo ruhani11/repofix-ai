@@ -1,0 +1,40 @@
+.sign-in-screen {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 1.25rem;
+  background: #f5f7fa;
+}
+
+.sign-in-card {
+  width: min(100%, 26rem);
+  padding: clamp(1.25rem, 5vw, 2rem);
+  border: 1px solid var(--border, #dde1e7);
+  border-radius: .75rem;
+  background: #fff;
+  box-shadow: 0 6px 24px rgb(32 38 49 / 6%);
+}
+
+.sign-in-brand {
+  color: var(--brand, #254674);
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.sign-in-card h1 {
+  margin: .45rem 0 .5rem;
+  font-size: clamp(1.4rem, 5vw, 1.65rem);
+  line-height: 1.25;
+  letter-spacing: -.025em;
+}
+
+.sign-in-card .sign-in-message {
+  margin-top: .85rem;
+}
+
+.sign-in-card .sign-in-action {
+  width: 100%;
+  min-height: 2.75rem;
+  margin-top: 1rem;
+}
